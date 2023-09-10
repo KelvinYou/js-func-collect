@@ -1,0 +1,1 @@
+"# js-func-collect" 
