@@ -5,8 +5,7 @@ function calculateGPA(subjects: any[]): string {
     throw new Error("Subjects should be an array.");
   }
 
-  // for TARUMT
-  const gradePoints: any = GRADE_POINTS;
+  const gradePoints: { [key: string]: number } = GRADE_POINTS;
 
   const totalGradePoints = subjects.reduce((total: any, subject: any) => {
     if (!subject.hasOwnProperty('grade') || !subject.hasOwnProperty('creditHour')) {
@@ -66,6 +65,4 @@ function calculateCGPA(semesters: any) {
 }
 
 // usage
-
-
 calculateCGPA(SEMESTERS_RESULT);

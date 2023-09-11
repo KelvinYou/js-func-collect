@@ -1,3 +1,4 @@
+// for TARUMT
 export const GRADE_POINTS = {
   'A': 4.00,
   'A-': 3.75,
@@ -8,7 +9,6 @@ export const GRADE_POINTS = {
   'C': 2.00,
   'F': 0.00,
 };
-
 
 export const SEMESTERS_RESULT = [
   {
