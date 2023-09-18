@@ -1,4 +1,4 @@
-import { WORD_REPLACEMENT } from "../constants/utils";
+import { WORD_REPLACEMENT } from "../constants/searchUtils";
 
 export function calculateSimilarityWithReplacements(s1: string, s2: string): number {
   const replacements: Record<string, string> = WORD_REPLACEMENT;
